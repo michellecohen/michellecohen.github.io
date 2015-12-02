@@ -90,7 +90,17 @@ section.signature-photo {
   background-repeat: no-repeat;
   margin: 0 auto;
   background-position: center;
-  margin-top: 25px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+
+.desc-container {
+  background-color: #0e1926;
+  height: 370px;
+  width: 100%;
+  margin: 0 auto;
+
 }
 
 /*premium*/
@@ -104,11 +114,14 @@ div.premium-album {
 section.premium-desc {
   float: left;
   margin: 0 auto;
-  width: 48%;
-  padding: 30px 30px 100px 20px;
+  width: 40%;
+  padding: 30px 30px 30px 20px;
   background-color: #dadfe6;
-  height: 400px;
+  height: 350px;
   border: none;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 7%;
 }
 
 .premium-desc>ul {
@@ -145,8 +158,9 @@ section.premium-photo {
   background-size: contain;
   background-repeat: no-repeat;
   margin: 0 auto;
-  margin-top: 25px;
   background-position: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
 }
 
@@ -161,21 +175,36 @@ div.package-info {
 section.package-one {
   float: left;
   margin: 0 auto;
-  width: 49%;
+  width: 48%;
   background-color: #dadfe6;
   height: 400px;
   border: none;
+  margin-right: .5%;
+  margin-bottom: 20px;
 
 }
 
 section.package-two {
   float: left;
   margin: 0 auto;
-  width: 49%;
+  width: 48%;
   background-color: #dadfe6;
   height: 400px;
+  margin-left: .5%;
+  margin-bottom: 2px;
 
+}
 
+#signature-start {
+  margin: 0 auto;
+  text-align: center;
+  margin-left: 25%;
+}
+
+h5 {
+  font-weight: 500;
+  text-align: center;
+  color: #d0021b;
 }
 
 div.w-bottom {
@@ -188,7 +217,7 @@ div.w-bottom {
 }
 
 hr {
-  clear: both;
+  width: 100%;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
